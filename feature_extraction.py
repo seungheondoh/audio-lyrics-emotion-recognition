@@ -114,5 +114,5 @@ def build_vocab(hparams, types="fasttext", source="wiki.simple", min_freq=10):
 
     	
 if __name__ == '__main__':
-	# save_audio_to_npy(hparams.dataset_path, hparams.feature_path)
+	save_audio_to_npy(hparams.dataset_path, hparams.feature_path)
 	build_vocab(hparams, types="fasttext", source ="wiki.simple", min_freq=5)
