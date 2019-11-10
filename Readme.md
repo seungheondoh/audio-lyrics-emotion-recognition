@@ -28,7 +28,7 @@ I changed the regression task to a classification task to verify how meaningful 
 <img src="/img/label.png">
 
 ### Result
-Label | Train Metric | Test Metric  | Train Metric | Test Metric | Train Metric | Test Metric |
+Label | Audio Train Metric | Audio Test Metric  | Lyrics Train Metric | Lyrics Test Metric | Multi Train Metric | Multi Test Metric |
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 Arousal (R2 Score)| 0.160 | 0.155 | 0.014 | 0.006 | 0.158 | 0.144
 Valence (R2 Score)| 0.126 | 0.115 | 0.038| 0.012| 0.251| 0.004
